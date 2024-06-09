@@ -5,5 +5,22 @@ def Factorial(num):
         num = Factorial(num - 1) * num
     return num
 
+
 result = Factorial(5)
 print("factorial: ", result)
+
+#  alternative"
+
+
+def Factorial2(num2):
+    if num2 == 1 or num2 == 0:
+        return 1
+    else:
+        temp = 1
+        for i in range(1, num2+1):
+            temp = temp * i
+        return temp
+
+
+result2 = Factorial2(5)
+print("factorial: ", result2)
