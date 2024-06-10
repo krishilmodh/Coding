@@ -13,13 +13,14 @@ print("factorial: ", result)
 
 
 def Factorial2(num2):
-    # if num2 == 1 or num2 == 0:
-    #     return 1
-    # else:
-    t = 1
-    for i in range(1, num2+1):
-        t = t * i
-    return t
+
+    if num2 == 1 or num2 == 0:
+        return 1
+    else:
+        temp = 1
+        for i in range(1, num2+1):
+            temp = temp * i
+        return temp
 
 
 result2 = Factorial2(5)
