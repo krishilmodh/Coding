@@ -9,6 +9,5 @@ def BubbleSort(nums):
                 nums[i] = temp
     return nums
 
-
 nums = [4, 2, 5, 6]
 print("sorted ", BubbleSort(nums))
